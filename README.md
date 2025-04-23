@@ -1,72 +1,84 @@
-# Getting Started with Create React App
+# Student Registration System
+# Description
+This is a Student Registration System built with React. The system allows users to manage course types, courses, course offerings, and student registrations. The application features forms for adding new course types, courses, and course offerings, as well as a registration form for students. Additionally, it lists the added course types, courses, course offerings, and registered students.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+Add Course Type: Allows users to create different types of courses (e.g., Online, In-Person, Hybrid).
 
-## Available Scripts
+Add Course: Users can add courses under different course types.
 
-In the project directory, you can run:
+Create Course Offering: Once a course is created, users can offer that course by selecting the course type and course.
 
-### `npm start`
+Register Student: Users can register students by selecting a course offering and providing the student’s name.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Display Lists: The system displays a list of:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Added Course Types
 
-### `npm test`
+# Created Courses
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Available Course Offerings
 
-### `npm run build`
+# Registered Students
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tech Stack
+Frontend:
+React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+HTML, CSS (for styling)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Package Manager: npm
 
-### `npm run eject`
+Installation
+To get started with this project, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/venkatanaresh4285/student-registration-system.git
+2. Navigate to the Project Directory
+bash
+Copy
+Edit
+cd student-registration-system
+3. Install Dependencies
+Make sure you have Node.js installed. Then, run the following command to install the required dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy
+Edit
+npm install
+4. Start the Application
+After the dependencies are installed, run the following command to start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copy
+Edit
+npm start
+This will open the application in your browser at http://localhost:3000.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Screenshots
+Add Course Type
 
-## Learn More
+Register Student
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Usage
+Add Course Type: Enter the name of a course type and click on the "Add Course Type" button.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Add Course: Enter the name of a course and click on the "Add Course" button.
 
-### Code Splitting
+Create Course Offering: Select the course type and course, then click on the "Add Course Offering" button to create a course offering.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Register Student: Enter the student’s name, select the course offering they will be registered in, and click the "Register Student" button.
 
-### Analyzing the Bundle Size
+View Data
+On the right side of the application, you will see the lists of:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Course Types
 
-### Making a Progressive Web App
+Courses
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Course Offerings
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# student-registration-system" 
-"# student-registration-system" 
+Registered Students
