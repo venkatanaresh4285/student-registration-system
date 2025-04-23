@@ -56,7 +56,7 @@ bash
 Copy
 Edit
 npm start
-This will open the application in your browser at http://localhost:3000.
+This will open the application in your browser at http://localhost:3000/
 
 Screenshots
 Add Course Type
